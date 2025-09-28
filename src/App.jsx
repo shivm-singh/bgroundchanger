@@ -6,8 +6,7 @@ function App() {
   return (
     <div className="w-full h-screen duration-200" style={{backgroundColor: color}}>
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
-        {/* learning: why use this way of onClick{} */}
-        <div className="flex flex-wrap justify-center gap-3 shadow-lg  px-3 py-2 rounded-3xl bg-black">
+         <div className="flex flex-wrap justify-center gap-3 shadow-lg  px-3 py-2 rounded-3xl bg-black">
           <button onClick= {() => setColor("red")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg" style={{backgroundColor: "red"}}>Red</button>
           <button onClick= {() => setColor("green")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg" style={{backgroundColor: "green"}}>Green</button>
           <button onClick= {() => setColor("blue")} className="outline-none px-4 py-1 rounded-full text-white shadow-lg" style={{backgroundColor: "blue"}}>Blue</button>
